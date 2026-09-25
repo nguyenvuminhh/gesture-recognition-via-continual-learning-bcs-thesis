@@ -163,16 +163,3 @@ plotting_scripts/         metric DTOs, per-run plotting, and the scripts that pr
 img/                      figures used in this README
 thesis.pdf                the full thesis
 ```
-
-Training (one run = one method over all 16 contexts):
-
-```bash
-# method: NONE | JOINT | EWC | SI | LwF | ER | AGEM
-python train_classification.py --method EWC --reg_strength 10
-python train_classification.py --method SI  --reg_strength 0.1
-python train_classification.py --method LwF --reg_strength 1
-python train_classification.py --method ER  --buffer_size 300
-python train_classification.py --method AGEM --buffer_size 300
-
-python test_models.py
-```
