@@ -1,0 +1,11 @@
+numpy
+scipy
+tqdm
+matplotlib
+seaborn
+scikit-learn
+argparse
+torchinfo
+pydantic
+pykan
+pyyaml
